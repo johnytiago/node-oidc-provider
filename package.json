@@ -1,6 +1,6 @@
 {
-  "name": "oidc-provider",
-  "version": "5.5.6",
+  "name": "@gmsllc/oidc-provider",
+  "version": "5.5.7",
   "description": "OpenID Provider (OP) implementation for Node.js OpenID Connect servers.",
   "keywords": [
     "auth",
@@ -23,7 +23,7 @@
     "server"
   ],
   "homepage": "https://github.com/panva/node-oidc-provider",
-  "repository": "panva/node-oidc-provider",
+  "repository": "gmsllc/node-oidc-provider",
   "license": "MIT",
   "author": "Filip Skokan <panva.ip@gmail.com>",
   "files": [
@@ -45,7 +45,7 @@
     "ejs": "^2.6.1",
     "got": "^9.3.2",
     "jsesc": "^2.5.2",
-    "koa": "^2.6.2",
+    "koa": "^2.13.0",
     "koa-compose": "^4.1.0",
     "lodash": "^4.17.11",
     "lru-cache": "^5.1.1",
@@ -97,5 +97,8 @@
     "hooks": {
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   }
 }
